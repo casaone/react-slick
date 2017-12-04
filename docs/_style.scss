@@ -30,6 +30,11 @@ h3 {
   margin: auto;
   width: 90%;
 }
+
+.slick-slide {
+  width: 100%;  
+}
+
 .slick-slide .image {
   padding: 10px;
 }
@@ -42,6 +47,7 @@ h3 {
   border: 0
 }
 .slick-slider {
+  height: 220px;
   margin: 30px auto 50px;
 }
 .slick-dots {
@@ -63,6 +69,10 @@ h3 {
   }
 }
 @media (max-width: 768px) {
+  .slick-slider {
+  height: 500px;
+  }
+
   h3 {
     font-size:24px;
   }
